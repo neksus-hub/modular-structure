@@ -1,5 +1,3 @@
-"use strict";
-
 const firstModule = () => {
   const one = "this is first module";
   console.log(one);
