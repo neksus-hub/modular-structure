@@ -1,7 +1,5 @@
-const one = require("./modules/one");
-const two = require("./modules/two");
-const library = require("./modules/badscript");
+import firstModule from "./modules/one";
+import secondModule from "./modules/two";
 
-one();
-two();
-library();
+firstModule();
+secondModule();
